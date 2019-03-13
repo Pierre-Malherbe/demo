@@ -8,6 +8,6 @@ public class TestController {
 
     @GetMapping("/")
     public String trest() {
-        return "test";
+        return "Hello from my Java Project ! ";
     }
 }
