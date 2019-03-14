@@ -11,6 +11,6 @@ public class TestController {
 
     @GetMapping("/")
     public String trest() throws UnknownHostException {
-        return "Hello from my Java Project !  Notre Hostname actuellement la est : " + InetAddress.getLocalHost().getHostName();
+        return "J'aime l'ASM ! Hello from my Java Project !  Notre Hostname actuellement la est : " + InetAddress.getLocalHost().getHostName();
     }
 }
